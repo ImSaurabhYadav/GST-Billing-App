@@ -1,0 +1,117 @@
+:root {
+  --app-primary-color: #2a3f54;
+  --app-secondary-color: #1abb9c;
+  --app-text-color: #333;
+  --transition-duration: 300ms; 
+}
+
+body {
+	overflow: scroll;
+	background: #eee;
+	margin: 0;
+}
+.hidden {
+	display: none !important;
+}
+.right {
+	margin-left: auto;
+}
+.selected {
+	background: var(--app-secondary-color);
+	box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.15);
+}
+.thin {
+	max-width: 20px !important;
+}
+button,input {
+	height: 30px;
+	margin: 10px;
+	margin-right: 0;
+	background: var(--app-primary-color);
+	color: #fff;
+	padding: 5px 10px;
+	outline-width: 2px;
+	transition: background var(--transition-duration),
+				color var(--transition-duration),;
+}
+input {
+	height: 20px;
+	color: #fff;
+}
+button:hover {
+	background: var(--app-secondary-color);
+	transition: background var(--transition-duration);
+}
+table {
+	border-collapse: collapse;
+	margin: 10px;
+	width: 98%;
+	text-align: center;
+	background: #eee;
+}
+	table thead {
+		background: var(--app-primary-color);
+		color: #fff;
+		font-size: 90%;
+	}
+		table thead th {
+			padding: 5px 8px;
+			color: #fff;
+			border-right: 1px solid #ccc;
+		}
+nav {
+	display: flex;
+	width: 100%;
+	height: 50px;
+	background: var(--app-primary-color);
+	text-align: center;
+	color: #fff;
+}
+nav label:first-child {
+	width: 15%;
+	text-align: left;
+}
+nav label {
+	padding: 15px;
+	width: 5%;
+	text-align: center;
+}
+nav label:hover {
+	background: var(--app-secondary-color);
+}
+body > div {
+	display: flex;
+	flex-direction: column;
+	background: #eee;
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+	margin: 25px;
+	height: 100%;
+}
+.toolbar {
+	background: #fff;
+	display: flex;
+	margin: 10px;
+	/* width: 100%; */
+	height: 50px;
+	align-items: center;
+}
+#form {
+	padding: 10px;
+}
+#form h2 {
+	margin: 0;
+	padding: 0 10px;
+	border-bottom: 1px dashed #aaa;
+}
+form {
+	display: grid;
+	grid-gap: 5px;
+	margin: 10px;
+	background: #fff;
+	padding: 10px;
+}
+form label {
+	display: grid;
+	grid-template-columns: 50px 250px;
+	align-items: center;
+}
