@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "RESTful API for GST Billing App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ImSaurabhYadav/ps-drive-2018-gst-app.git"
+  },
+  "author": "Saurabh Yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ImSaurabhYadav/ps-drive-2018-gst-app/issues"
+  },
+  "homepage": "https://github.com/ImSaurabhYadav/ps-drive-2018-gst-app#readme",
+  "dependencies": {
+    "hapi": "^16.6.3"
+  }
+}
