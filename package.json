@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/ImSaurabhYadav/ps-drive-2018-gst-app#readme",
   "dependencies": {
-    "hapi": "^16.6.3"
+    "hapi": "^16.6.3",
+    "hapi-swagger": "^9.1.1",
+    "mysql": "^2.15.0"
   }
 }
