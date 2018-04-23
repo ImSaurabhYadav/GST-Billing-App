@@ -2,15 +2,12 @@
 <html>
 
 	<head>
-		<title>Prodcut Management</title>
+		<title>GST Billing App</title>
 		<link rel="stylesheet" type="text/css" href="main.css">
 	</head>
 
 	<body>
 		<nav>
-			<label>
-				GST Billing App
-			</label>
 			<label class="selected prd">
 				<a>Product</a>
 			</label>
@@ -28,10 +25,10 @@
 				<table>
 					<thead>
 						<tr>
-							<th class="thin">Id</th>
+							<th class="thin">Product Code</th>
 							<th>Product name</th>
 							<th>Price</th>
-							<th>Gst</th>
+							<th>Gst (%)</th>
 							<th class="thin">Edit</th>
 							<th class="thin">Delete</th>
 						</tr>	
@@ -61,7 +58,7 @@
 					</label>
 					
 					<label>
-						<span>Gst</span>
+						<span>Gst (%)</span>
 						<input type="number" name="gst">
 					</label>
 				</form>
@@ -72,17 +69,17 @@
 			<div class="toolbar">
 				<label>
 					<span>Search:</span> 
-					<input type="text" class="search" placeholder="Enter product id">
+					<input type="text" class="search" placeholder="Product code or Name">
 				</label>	
 			</div>
 			<h2>Search Result</h2>
 			<table class="search_table">
 				<thead>
 					<tr>
-						<th class="thin">Id</th>
+						<th class="thin">Product Code</th>
 						<th>Product name</th>
 						<th>Price</th>
-						<th>Gst</th>
+						<th>Gst (%)</th>
 						<th class="thin">Select</th>
 					</tr>	
 				</thead>
@@ -90,14 +87,14 @@
 				<tbody>
 				</tbody>
 			</table>
-			<h2>Billing</h2>
+			<h2>Selected Items</h2>
 			<table class="billing_table">
 				<thead>
 					<tr>
-						<th class="thin">Id</th>
+						<th class="thin">Product Code</th>
 						<th>Product name</th>
 						<th>Price</th>
-						<th>Gst</th>
+						<th>Gst (%)</th>
 						<th class="thin">Quantity</th>
 						<th class="thin">Final Price</th>
 					</tr>	

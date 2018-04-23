@@ -110,7 +110,7 @@ function Add_new() {
 async function Edit(data) {
 	toggle();
 
-	document.querySelector('#form h2').textContent = 'Edit product ' + data.ID;
+	document.querySelector('#form h2').textContent = 'Edit Product Code: ' + data.ID;
 
 	const form = document.querySelector('#form form');
 	form.reset();
