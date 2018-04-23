@@ -29,7 +29,7 @@ MySQL Server running with a database name new_project.<br>
 
 # Screenshots
 1. Main Page:
-![](./screenshots/1.png)
+![](./Screenshots/1.png)
 <br>
 <br>
 ![](./screenshots/2.png)
