@@ -27,38 +27,27 @@ MySQL Server running with a database name new_project.<br>
 ```
 
 
-# Screenshots
-1. Main Page:
+### Screenshots
+1. Product Page:
 ![](./Screenshots/1.png)
 <br>
-<br>
+
+2. Add new Product
 ![](./Screenshots/2.png)
 <br>
-<br>
+
+3. Edit Product details
 ![](./Screenshots/3.png)
 <br>
-<br>
+
+4. Delete Product
 ![](./Screenshots/4.png)
 <br>
-<br>
+
+5. Billing Page
 ![](./Screenshots/5.png)
 <br>
-<br>
+
+6. Search with product Code
 ![](./Screenshots/6.png)
-<br>
-<br>
-![](./Screenshots/7.png)
-<br>
-<br>
-![](./Screenshots/8.png)
-<br>
-<br>
-![](./Screenshots/9.png)
-<br>
-<br>
-![](./Screenshots/10.png)
-<br>
-<br>
-![](./Screenshots/11.png)
-<br>
 <br>
