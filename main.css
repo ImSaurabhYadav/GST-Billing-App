@@ -59,6 +59,14 @@ table {
 			color: #fff;
 			border-right: 1px solid #ccc;
 		}
+	table tbody tr td {
+		height: 30px;
+		border: 1px solid #ddd;
+	}
+	table tbody tr:hover {
+		background: #ccc;
+		cursor: pointer;
+	}	
 nav {
 	display: flex;
 	width: 100%;
@@ -98,10 +106,20 @@ body > div {
 #form {
 	padding: 10px;
 }
-#form h2 {
+h2 {
 	margin: 0;
 	padding: 0 10px;
 	border-bottom: 1px dashed #aaa;
+}
+.edit:hover {
+	max-width: 50px;
+	background: #32CD32;
+	cursor: pointer;
+}
+.delete:hover {
+	max-width: 50px;
+	background: #FF1919;
+	cursor: pointer;
 }
 form {
 	display: grid;
@@ -114,4 +132,12 @@ form label {
 	display: grid;
 	grid-template-columns: 50px 250px;
 	align-items: center;
+}
+.quantity input,
+.final_price input {
+	margin: 5px;
+	max-width: 60px;
+	padding: 2px;
+	background: #fff;
+	color: #333;
 }

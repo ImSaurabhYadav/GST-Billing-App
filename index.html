@@ -9,13 +9,13 @@
 	<body>
 		<nav>
 			<label>
-				Company name
+				GST Billing App
 			</label>
-			<label class="selected">
+			<label class="selected prd">
 				<a>Product</a>
 			</label>
 
-			<label>
+			<label class="bill">
 				<a>Billing</a>
 			</label>
 		</nav>
@@ -69,7 +69,49 @@
 		</div>
 
 		<div id="billing" class="hidden">
-			
+			<div class="toolbar">
+				<label>
+					<span>Search:</span> 
+					<input type="text" class="search" placeholder="Enter product id">
+				</label>	
+			</div>
+			<h2>Search Result</h2>
+			<table class="search_table">
+				<thead>
+					<tr>
+						<th class="thin">Id</th>
+						<th>Product name</th>
+						<th>Price</th>
+						<th>Gst</th>
+						<th class="thin">Select</th>
+					</tr>	
+				</thead>
+
+				<tbody>
+				</tbody>
+			</table>
+			<h2>Billing</h2>
+			<table class="billing_table">
+				<thead>
+					<tr>
+						<th class="thin">Id</th>
+						<th>Product name</th>
+						<th>Price</th>
+						<th>Gst</th>
+						<th class="thin">Quantity</th>
+						<th class="thin">Final Price</th>
+					</tr>	
+				</thead>
+
+				<tbody>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td colspan="4">Total</td>
+						<td colspan="2"><input type="text" class="total" value="0" readonly></td>
+					</tr>
+				</tfoot>
+			</table>
 		</div>
 
 		<script src="main.js"></script>
