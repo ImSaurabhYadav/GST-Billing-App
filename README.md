@@ -26,6 +26,11 @@ MySQL Server running with a database name new_project.<br>
 	$ node app.js
 ```
 
+4. If it doesn't work in Chrome, go to directory of chrome.exe and run the command.
+```
+	$ chrome.exe --disable-web-security --user-data-dir="c:\data"
+```
+
 
 ### Screenshots
 1. Product Page:
@@ -51,3 +56,4 @@ MySQL Server running with a database name new_project.<br>
 6. Search with product Code
 ![](./Screenshots/6.png)
 <br>
+
