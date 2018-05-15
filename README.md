@@ -1,4 +1,4 @@
-# ps-drive-2018-gst-app
+# GST Billing App
 
 In this app new product can be added, existing products can be edited in product entry page. Then in billing page all existing products are displayed in a table with search option to search according to any field. After selecting the product its quantity can be changed and total cost of that product and gross total cost will be updated dynamically.<br>
 
