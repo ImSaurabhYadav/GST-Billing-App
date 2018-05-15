@@ -18,7 +18,7 @@ MySQL Server running with a database name new_project.<br>
 
 2. Clone Git repository.
 ```
-	$ git clone https://github.com/ImSaurabhYadav/ps-drive-2018-gst-app.git
+	$ git clone https://github.com/ImSaurabhYadav/gst-billing-app.git
 ```
 
 3. Go to directory "ps-drive-2018-gst-app" and run command.
